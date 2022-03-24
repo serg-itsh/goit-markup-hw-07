@@ -426,6 +426,9 @@ textarea {
 .form-field input::placeholder {
   color: #2a2a2a;
 }
+/* .form-input {
+  color: rgba(117, 117, 117, 0.5);
+} */
 .form-field:focus-within .form-input {
   border-color: #2196f3;
 }
