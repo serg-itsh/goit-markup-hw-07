@@ -16,7 +16,7 @@
     height: 92px;
     border: 1px solid getColor('background-social-links');
     border-radius: 4px;
-    transition: var(--transform);
+    transition: border-color var(--transform);
 
     &:hover {
       border-color: #2196f3;
@@ -29,7 +29,7 @@
 
   &__icon {
     fill: getColor('background-social-links');
-    transition: var(--transform);
+    transition: fill var(--transform);
   }
 }
 

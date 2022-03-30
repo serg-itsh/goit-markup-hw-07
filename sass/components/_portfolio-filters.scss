@@ -25,7 +25,8 @@
   border-radius: 4px;
   border: none;
   font-family: inherit;
-  transition: var(--transform);
+  transition: color var(--transform), background-color var(--transform),
+    box-shadowr var(--transform);
 
   &:hover,
   &:focus {

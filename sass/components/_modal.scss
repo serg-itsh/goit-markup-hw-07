@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 .modal__close-btn {
-  transition: var(--transform);
+  transition: fill var(--transform);
 }
 .flexy:focus > .modal__close-btn {
   fill: #2196f3;
@@ -63,7 +63,8 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%) scale(1);
-  transition: var(--transform);
+
+  transition: transform var(--transform);
 }
 
 /* close */
@@ -141,7 +142,7 @@ textarea {
   background-image: url('../images/symbol-defs-modal.svg');
   background-size: contain;
   background-origin: border-box;
-  transition: var(--transform);
+  transition: transform var(--transform);
 }
 .label {
   transition: transform 250ms linear;
@@ -206,7 +207,7 @@ textarea {
   outline: none;
 
   cursor: pointer;
-  transition: var(--transform);
+  transition: border-color var(--transform);
 }
 .form-field input::placeholder {
   color: #2a2a2a;
@@ -248,6 +249,6 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
   outline: none;
   cursor: pointer;
-  transition: var(--transform);
+  // transition: var(--transform);
 }
 /* Modal */

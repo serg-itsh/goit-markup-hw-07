@@ -18,7 +18,7 @@
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    transition: var(--transform);
+    transition: color var(--transform);
 
     &--current {
       color: getColor('background-hover-btn');

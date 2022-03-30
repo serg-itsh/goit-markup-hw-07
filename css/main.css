@@ -102,7 +102,7 @@ img {
 }
 
 /* <!-- Шапка сайта -->
-    <!-- Верхняя линия --> */
+  <!-- Верхняя линия --> */
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -175,8 +175,8 @@ img {
   text-decoration: none;
   padding-top: 32px;
   padding-bottom: 32px;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: color var(--transform);
+  transition: color var(--transform);
   /* Студия */
 }
 
@@ -227,8 +227,8 @@ img {
           align-items: center;
   color: #757575;
   text-decoration: none;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: color var(--transform);
+  transition: color var(--transform);
 }
 
 .auth-nav__link:hover, .auth-nav__link:focus {
@@ -322,8 +322,8 @@ img {
 }
 
 .modal__close-btn {
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: fill var(--transform);
+  transition: fill var(--transform);
 }
 
 .flexy:focus > .modal__close-btn {
@@ -361,8 +361,10 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: -webkit-transform var(--transform);
+  transition: -webkit-transform var(--transform);
+  transition: transform var(--transform);
+  transition: transform var(--transform), -webkit-transform var(--transform);
 }
 
 /* close */
@@ -469,8 +471,10 @@ textarea {
   background-image: url("../images/symbol-defs-modal.svg");
   background-size: contain;
   background-origin: border-box;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: -webkit-transform var(--transform);
+  transition: -webkit-transform var(--transform);
+  transition: transform var(--transform);
+  transition: transform var(--transform), -webkit-transform var(--transform);
 }
 
 .label {
@@ -546,8 +550,8 @@ textarea {
   padding-left: 42px;
   outline: none;
   cursor: pointer;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: border-color var(--transform);
+  transition: border-color var(--transform);
 }
 
 .form-field input::-webkit-input-placeholder {
@@ -609,8 +613,6 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
   outline: none;
   cursor: pointer;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
 }
 
 /* Modal */
@@ -816,8 +818,10 @@ textarea {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: fill var(--transform);
+  transition: fill var(--transform);
+  -webkit-transition: background-color var(--transform);
+  transition: background-color var(--transform);
 }
 
 .social-row__link:hover, .social-row__link:focus {
@@ -853,8 +857,8 @@ textarea {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: border-color var(--transform);
+  transition: border-color var(--transform);
 }
 
 .clients__label:hover {
@@ -867,8 +871,8 @@ textarea {
 
 .clients__icon {
   fill: #afb1b8;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: fill var(--transform);
+  transition: fill var(--transform);
 }
 
 .clients__inner:not(:last-child) {
@@ -909,8 +913,8 @@ textarea {
   border-radius: 4px;
   border: none;
   font-family: inherit;
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: color var(--transform), background-color var(--transform), box-shadowr var(--transform);
+  transition: color var(--transform), background-color var(--transform), box-shadowr var(--transform);
 }
 
 .filters-row__btn--active:hover, .filters-row__btn--active:focus {
@@ -1124,8 +1128,10 @@ textarea {
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: rgba(255, 255, 255, 0.6);
-  -webkit-transition: var(--transform);
-  transition: var(--transform);
+  -webkit-transition: -webkit-transform var(--transform);
+  transition: -webkit-transform var(--transform);
+  transition: transform var(--transform);
+  transition: transform var(--transform), -webkit-transform var(--transform);
 }
 
 .page-footer__form-input::-webkit-input-placeholder {
